@@ -27,6 +27,7 @@ else header.css({
 
 
 })
+
 $(window).scroll(function(){
 var header = $('#Phone-header');
 scroll = $(window).scrollTop();

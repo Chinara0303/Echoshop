@@ -68,6 +68,24 @@ a {
   #Contact ul li input {
     width: 200% !important;
   }
+  #Culture .text-culture-image {
+    top: -40px !important;
+    left: 10% !important;
+  }
+  #Culture .text-culture-image h4 {
+    font-size: 15px !important;
+  }
+  #Culture .text-culture-image p {
+    font-size: 15px;
+  }
+  #Culture .text-culture-video {
+    top: 63% !important;
+    left: 34% !important;
+    font-size: 20px !important;
+  }
+  #Team .overlay {
+    width: 100%;
+  }
 }
 #Introduction-shop .intro {
   background-image: url(/images/sub-bnr-bg.jpg);
@@ -278,8 +296,8 @@ a {
 }
 
 #Team {
+  padding: 50px;
   background-color: #F7F7F7 !important;
-  padding: 100px;
 }
 #Team .member {
   margin-top: 36px;
@@ -340,7 +358,7 @@ a {
 }
 
 #Brand {
-  padding: 100px;
+  padding: 100px 0;
 }
 
 #Contact {

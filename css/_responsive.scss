@@ -103,4 +103,30 @@
         }
         
     }
+
+    // About page
+    #Culture{
+        .text-culture-image{
+            top: -40px !important;
+            left: 10% !important;
+            h4{
+                font-size: 15px !important;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        .text-culture-video{
+            top:63% !important;
+            left: 34% !important;
+            font-size: 20px !important;
+           
+         }
+    }
+    #Team{
+        .overlay{
+            width: 100%;
+        }
+    }
+
 }
