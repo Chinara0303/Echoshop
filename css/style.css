@@ -65,6 +65,9 @@ a {
     font-size: 15px;
     letter-spacing: 6px;
   }
+  #Contact ul li input {
+    width: 200% !important;
+  }
 }
 #Introduction-shop .intro {
   background-image: url(/images/sub-bnr-bg.jpg);
@@ -207,14 +210,14 @@ a {
   margin-bottom: 70px;
 }
 
-.text h5 {
+.heading h5 {
   font-size: 30px;
   text-align: left;
   color: #2d3a4b;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.text h2 {
+.heading h2 {
   font-size: 44px;
   font-weight: normal;
   text-transform: none;
@@ -222,7 +225,7 @@ a {
   color: #666666;
   line-height: 45px;
 }
-.text p {
+.heading p {
   font-weight: 400;
   color: #6f6f6f;
   line-height: 26px;
@@ -334,6 +337,75 @@ a {
   font-size: 15px;
   font-weight: 600;
   color: #2d3a4b;
+}
+
+#Brand {
+  padding: 100px;
+}
+
+#Contact {
+  padding: 50px 0;
+}
+#Contact .contact-form h5 {
+  color: #2d3a4b;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#Contact .contact-form form label {
+  text-transform: uppercase;
+  color: #2d3a4b;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+#Contact .contact-form form input {
+  width: 180%;
+  height: 45px;
+  outline: none;
+  border: 1px solid #2d3a4b;
+  border-radius: 5px;
+}
+#Contact .contact-form form textarea {
+  outline: none;
+  border: 1px solid #2d3a4b;
+}
+#Contact .contact-form form button {
+  font-size: 20px;
+  color: #fff;
+  background-color: #2d3a4b;
+  padding: 15px 40px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: 0.4s ease-in-out;
+}
+#Contact .contact-form form button:hover {
+  background-color: #FFE115;
+  color: #2d3a4b;
+}
+#Contact .contact-info {
+  border: 4px solid #FFE115;
+  padding: 47px 20px;
+}
+#Contact .contact-info h6 {
+  margin-bottom: 20px;
+  margin-left: 29px;
+  color: #aba5a5;
+  font-size: 20px;
+}
+#Contact .contact-info ul li {
+  color: #5e5e5e;
+}
+#Contact .contact-info ul li p {
+  line-height: 30px;
+  font-size: 16px;
+}
+#Contact .contact-info ul li p i {
+  margin-right: 10px;
+}
+#Contact .contact-info ul li span {
+  font-size: 14px;
+  color: #5e5e5e;
 }
 
 #Header .navigator ul {
