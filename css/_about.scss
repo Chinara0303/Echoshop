@@ -1,0 +1,160 @@
+#History{
+    h4{
+       text-align: center;
+       font-size: 30px;
+       text-transform: uppercase;
+       margin-bottom: 50px;
+       font-weight: 700;
+       letter-spacing: 2.5px;
+    }
+    p{
+        color: #6f6f6f;
+        font-size: 14px;
+        letter-spacing: 1.7px;
+        line-height: 2;
+    }
+    img{
+        margin-bottom: 70px;
+    }
+}
+
+.text{
+    h5{
+        font-size: 30px;
+        text-align: left;
+        color: #2d3a4b;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    h2{
+        font-size: 44px;
+        font-weight: normal;
+        text-transform: none;
+        margin-top: 30px;
+        color: #666666;
+        line-height: 45px;
+    }
+    p{
+        font-weight: 400;
+        color: #6f6f6f;
+        line-height: 26px;
+    }
+}
+
+// Section Culture
+#Culture{
+    position: relative;
+ ul{
+    padding: 0;
+    li{
+        float: left;
+        width: 25%;
+        img{
+            width: 100%;
+        }
+    }
+ }
+ .text-culture-image{
+    position: absolute;
+    top: 30px;
+    left: 19%;
+    z-index: 11;
+    color: #fff;
+    h4{
+        text-transform: uppercase;
+        font-size: 30px;
+        text-align: center;
+       
+    }
+ }
+ .text-culture-video{
+    position: absolute;
+    top:63%;
+    left: 41%;
+    z-index: 11;
+    font-size: 25px;
+
+    i{
+        color: #ffe115;
+        cursor: pointer;
+        transition: .4s ease-in-out;
+        &:hover{
+            color: #fff;
+        }
+    }
+    span{
+        color: #fff;
+        margin-left: 10px;
+        letter-spacing: 2px;
+    }
+ }
+}
+// Section Team
+#Team{
+    background-color: #F7F7F7 !important;
+    padding: 100px;
+    .member{
+        margin-top: 36px;
+        .imgoverlay{
+            position: relative;
+            .img{
+              overflow: hidden;
+                img{
+                    border-radius: 100%;
+                }
+                
+            }
+            .overlay{
+                position: absolute;
+                border-radius: 100%;
+                background: rgba(0, 0, 0, 0.7);
+                height: 100%;
+                width: 65%;
+                left: 0;
+                top: 0;
+                transition: 0.3s ease-in-out;
+                opacity: 0;
+                cursor: pointer;
+                z-index: 999;
+                .social-links-box{
+                    position: absolute;
+                    top: 50%;
+                    left:50%;
+                    transform: translate(-50%,-50%);
+                    i{
+                        font-size: 22px;
+                        color: #fff;
+                        margin-left: 20px;
+
+                    }
+                }
+            }
+           
+            
+        }
+        &:hover{
+            .overlay{
+                opacity: 1;
+            }
+        }
+        .member-info{
+            width: 60%;
+            text-align: center;
+            h6{
+                font-weight: bold;
+                font-size: 20px;
+                margin-top: 20px;
+                color: #2d3a4b;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+            }
+            p{
+                text-transform: uppercase;
+                font-size: 15px;
+                font-weight: 600;
+                color: #2d3a4b;
+            }
+        }
+    }
+   
+}

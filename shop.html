@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOSHOP</title>
+    <!-- FontAwesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <!-- Aos cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="Header">
+        <div class="container mt-5 pb-3">
+            <div class="row">
+                <div class="col-lg-4 col-6">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>  
+                </div>
+                <div class="col-lg-4 d-none d-lg-block">
+                    <div class="navigator">
+                        <ul>
+                            <li ><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="active"><a href="shop.html">Shop</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block">
+                    <div class="header-rigth-info text-end">
+                        <a href="cart.html">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                            <sup id="productCount">0</sup>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <div class="icon">
+                            <i class="fa-solid fa-user"></i>
+                            <ul class="dropdown">
+                                <li><a href="favorite.html">My Wishlist</a></li>
+                                <li><a href="#">My Profile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-block d-lg-none">
+                    <div class="icon text-end">
+                        <a href="#"><i class="fa-solid fa-user"></i></a>
+                        <a href="#">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                            <sup id="productCount">0</sup>
+                        </a>
+                         <i id="openicon"  class="fa-solid fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- Header -->
+
+    <!-- Phone Header -->
+    <section id="Phone-header">
+    <div class="overlay"></div>
+        <div class="container pb-0 d-lg-none d-block">
+            <div id="sidebar" class="menu">
+               <i id="closeicon" class="fa-brands fa-xing"></i>
+                <div class="navigator-phone ">
+                    <ul class="px-3" >
+                        <li><a href="#">Search</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="favorite.html">My Wishlist</a></li>
+                        <li><a href="">My Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Phone Header -->
+
+    <!--Section Intro -->
+    <section id="Introduction-shop">
+        <div class="intro">
+            <div class="container">
+                    <h3>Ecoshop products</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. 
+                    </p>
+                </div>
+        </div>
+       
+    </section>
+    <!--Section Intro -->
+
+    <!-- Section Products -->
+  
+    <section id="Product">
+        <div class="container">
+            <div class="row">
+                <div class="sub-sect">
+                    <div class="col-lg-6  col-6">
+                        <span class="product-num">Showing 1 - 10 of 30 products</span>
+                    </div>
+                    <div class="col-lg-6  col-6">
+                        <div class="pull-right"> 
+                            <!-- Short By -->
+                            <div class="btn-group bootstrap-select">
+                                <select class="selectpicker" tabindex="-98">
+                                    <option>Short By</option>
+                                    <option>Short By</option>
+                                    <option>Short By</option>
+                                </select>
+                            </div>
+                            <!-- Filter By -->
+                            <div class="btn-group bootstrap-select">
+                                <select class="selectpicker" tabindex="-98">
+                                <option>Filter By</option>
+                                <option>Short By</option>
+                                <option>Short By</option>
+                                </select>
+                            </div>
+                            
+                            <!-- GRID & LIST --> 
+                            <a href="#." class="grid-style"><i class="fa-solid fa-border-all"></i></a> 
+                            <a href="#." class="list-style"><i class="fa-solid fa-list"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-2-1.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Stool</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-2-2.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Gray bag</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-2-3.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Chiar</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-2-4.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Stool</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-5.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Stone cup</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-6.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Gary bag</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-7.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Chiar</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-8.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Stool</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-9.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Spoon</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-10.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Stool</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-11.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Stool</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div data-id="1" class="card-shop">
+                        <div class="img-overlay">
+                            <div class="img">
+                                <img src="/images/product-12.jpg" alt="">
+                            </div>
+                            <div class="overlay">
+                                <div class="button-box">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="addbtn" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                                    <a class="addfav"  href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-name">
+                            <a href="#">Shoe</a>
+                            <p>Lorem ipsum, dolor sit amet.</p>
+                        </div>
+                        <div class="item-price">
+                            <span><sup>$</sup>299</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Products -->
+
+    <!-- Section About -->
+    <section id="About">
+        <div class="container">
+            <div class="text text-center m-5">
+                <h4>ABOUT ECOSHOP</h4>
+                <p>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsumien lacus, eu posuere
+                    odio luctus non. Nulla lacinia,
+                    eros vel fermentum consectetur, risus purus tempc, et iaculis odio dolor in ex. </p>
+            </div>
+            <div class="social-links">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Section About -->
+
+    <!-- Section NEWSLETTER -->
+    <section id="Newsletter">
+        <div class="container">
+            <div class="text text-center m-5">
+                <h4 style="color: #fff;">NEWSLETTER</h4>
+                <p style="color:rgb(255 255 255 / 34%) ; ">Phasellus lacinia fermentum bibendum. Interdum et malesuada
+                    fames ac ante ipsumien <br> lacus, eu posuere odi </p>
+            </div>
+            <div class="form">
+                <form action="#">
+                    <input type="email" placeholder="Enter your email address">
+                    <button>SEND ME</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section NEWSLETTER -->
+
+    <!-- Section Footer -->
+    <section id="Footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <div class="about-footer">
+                        <img src="images/logo-foot.png" alt="">
+                        <p><i class="fa-solid fa-location-dot"></i>
+                            Street No. 12, Newyork 12,<br> MD - 123, USA. </p>
+                        <p><i class="fa-solid fa-phone-flip"></i> 1.800.123.456789</p>
+                        <p><i class="fa-solid fa-envelope"></i> info@ecoshop.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="links">
+                        <h6>HELPFUL LINKS</h6>
+                        <ul>
+                            <li>
+                                <a href="#">Products</a>
+                            </li>
+                            <li>
+                                <a href="#">Find a Store</a>
+                            </li>
+                            <li>
+                                <a href="#">Features</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Press Kit</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="links">
+                        <h6>SHOP</h6>
+                        <ul>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Carrer</a>
+                            </li>
+                            <li>
+                                <a href="#">Shipping Methods</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Support</a>
+                            </li>
+                            <li>
+                                <a href="#">Retailer</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="links">
+                        <h6>MY ACCOUNT</h6>
+                        <ul>
+                            <li>
+                                <a href="#">Login</a>
+                            </li>
+                            <li>
+                                <a href="#">My Account</a>
+                            </li>
+                            <li>
+                                <a href="#">My Cart</a>
+                            </li>
+                            <li>
+                                <a href="#">Wishlist</a>
+                            </li>
+                            <li>
+                                <a href="#">Checkout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="rights">
+                <p>© 2016 ecoshop All right reserved. </p>
+            <button id="topbtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+            </div>
+        </div>
+    </section>
+    <!-- Section Footer -->
+
+    <!-- Jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.6.0.min.js"
+        integrity="sha256-mBCu5+bVfYzOqpYyK4jm30ZxAZRomuErKEFJFIyrwvM=" crossorigin="anonymous"></script>
+    <!-- Aos js cdn -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Js -->
+    <script src="js/shop.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

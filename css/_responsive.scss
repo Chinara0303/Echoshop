@@ -1,0 +1,94 @@
+@media (max-width:600px) {
+    #Newsletter{
+        form{
+            text-align: center !important;
+            width: 100% !important;
+            input{
+                width: 100% !important;
+                margin: auto !important;
+            }
+            button{
+                width: 50% !important;
+                margin-top: 20px !important;
+            }
+        }
+    }
+
+    // introdution
+    #Introduction{
+        .slider-intro{
+            .back-image-first{
+                .text{
+                    padding: 0px;
+                    h2{
+                        font-size: 15px;
+                    }
+                    h1{
+                        font-size: 20px;
+                    }
+                }      
+                .btn-intro{
+                    button{
+                        padding: 10px;
+                    }
+                    span{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .back-image-second{
+                .text{
+                    h1{
+                        font-size: 20px;
+                    }
+                    span{
+                        font-size: 30px;
+
+                    }
+                   
+                }
+                .btn-intro-second{
+                    button{
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    // Favorite page
+    .tobdy{
+        img{
+            width: 100%;
+        }
+    }
+
+
+
+    // Shop page
+    // Products section
+    #Product{
+        .img-overlay{
+            .img{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .button-box{
+            left: 32% !important;
+        }
+
+    }
+
+    // Intro section
+    #Introduction-shop{
+        .intro{
+         padding:100px !important;
+            h3{
+                font-size: 15px ;
+                letter-spacing: 6px ;
+            }
+        }
+    }
+}
