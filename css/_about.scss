@@ -91,12 +91,15 @@
 
 // Section Team
 #Team{
-    padding: 50px ;
+    padding: 50px 0 ;
     background-color: #F7F7F7 !important;
     .member{
         margin-top: 36px;
         .imgoverlay{
             position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             .img{
               overflow: hidden;
                 img{
@@ -109,8 +112,8 @@
                 border-radius: 100%;
                 background: rgba(0, 0, 0, 0.7);
                 height: 100%;
-                width: 65%;
-                left: 0;
+                width: 64%;
+                left: 73px;
                 top: 0;
                 transition: 0.3s ease-in-out;
                 opacity: 0;
@@ -138,7 +141,6 @@
             }
         }
         .member-info{
-            width: 60%;
             text-align: center;
             h6{
                 font-weight: bold;

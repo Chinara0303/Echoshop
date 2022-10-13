@@ -296,7 +296,7 @@ a {
 }
 
 #Team {
-  padding: 50px;
+  padding: 50px 0;
   background-color: #F7F7F7 !important;
 }
 #Team .member {
@@ -304,6 +304,9 @@ a {
 }
 #Team .member .imgoverlay {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #Team .member .imgoverlay .img {
   overflow: hidden;
@@ -316,8 +319,8 @@ a {
   border-radius: 100%;
   background: rgba(0, 0, 0, 0.7);
   height: 100%;
-  width: 65%;
-  left: 0;
+  width: 64%;
+  left: 73px;
   top: 0;
   transition: 0.3s ease-in-out;
   opacity: 0;
@@ -339,7 +342,6 @@ a {
   opacity: 1;
 }
 #Team .member .member-info {
-  width: 60%;
   text-align: center;
 }
 #Team .member .member-info h6 {
@@ -378,7 +380,7 @@ a {
   margin-bottom: 40px;
 }
 #Contact .contact-form form input {
-  width: 180%;
+  width: 160%;
   height: 45px;
   outline: none;
   border: 1px solid #2d3a4b;
